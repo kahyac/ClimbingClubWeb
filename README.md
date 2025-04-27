@@ -38,3 +38,14 @@ Elle permet la gestion des membres, des catégories d'activités et des sorties 
    ```bash
    git clone git@github.com:kahyac/ClimbingClubWeb.git
    cd ClimbingClubWeb
+
+## Démarrage de l'application
+
+Pour lancer l'application Spring Boot en local :
+
+    mvn spring-boot:run
+
+## Lancer le serveur SMTP factice (FakeSMTP)
+Pour activer le serveur SMTP local utilisé pour la récupération de mot de passe :
+
+   java -jar tools/FakeSMTP/FakeSMTP-2.0.jar
