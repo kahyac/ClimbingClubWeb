@@ -1,0 +1,30 @@
+Éviter les null
+    @Override
+    public Membre obtenirMembreParEmail(String email) {
+        Optional<Membre> opt = membreRepository.findByEmail(email);
+        return opt.orElse(null);
+    }
+
+Remarque
+
+ -> méthode Agile
+ #durée de sprint , sprint planning , sprint retro , meet
+ #pairProgramming
+
+-> Ajouter Commentaires uml
+
+-> les bonnes pratiques
+application Design Pattern / SOLID / Conception
+#interface (liskov sub)
+#Git.
+#préférence loggers que print
+#Créer des exception personnalisé
+#Check GLA Av
+#Check Old report
+#postman
+
+-> Test coverage avec jacococo Couverage 100%
+
+-> Les difficultés recontrés
+
+

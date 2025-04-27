@@ -1,0 +1,191 @@
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0 1rem;
+    color: #333;
+}
+
+header, footer {
+    background: #222;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.list {
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.list li {
+    margin-bottom: 0.5rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background: #0056b3;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f0f0f0;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.page-item {
+    list-style: none;
+}
+
+.page-link {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    color: #333;
+}
+
+.page-link:hover {
+    background: #f0f0f0;
+}
+
+.page-item.active .page-link {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+/* === Structure globale === */
+.site-header, .site-footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+}
+.site-header h1 a {
+    color: white;
+    text-decoration: none;
+}
+.site-header nav a {
+    margin-right: 1rem;
+    color: #ddd;
+    text-decoration: none;
+}
+.site-header nav a:hover {
+    color: white;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* === Formulaire === */
+.form-create .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-create .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.form-control {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* boutons de formulaire */
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* classes de bouton (déjà présentes) */
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.btn-green   { background: #28a745; color: white; }
+.btn-green:hover { background: #218838; }
+.btn-gray    { background: #6c757d; color: white; }
+.btn-gray:hover  { background: #5a6268; }
+
+
